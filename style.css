@@ -1,0 +1,150 @@
+*{
+    color: rgb(233, 233, 244);
+    
+   
+}
+#navbar-iframe-container{
+    display:none;
+        }
+body{
+    margin: 0;
+    background-image: url(https://www.tata.com/content/dam/tata/images/newsroom/careers/desktop/careers_coding_banner_desktop_1920x1080.jpg);
+    backdrop-filter: blur(9px);
+    background-repeat:no-repeat;
+    overflow: hidden;
+    
+    
+    
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.853);
+    align-items: center;
+    
+    
+}
+#ai{
+    background: red;
+    height: 40px ;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+}
+#ai span{
+    color: blue;
+    font-size: 20px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 70vh;
+}
+.topics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.topics .content h1{
+    background-color: rgb(248, 241, 241);
+    color: red;
+}
+.sub-topics{
+    margin: 10px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    height: 100vh;
+    
+}
+iframe{
+    width: 900px; 
+    height: 500px;
+    overflow: hidden;
+}
+#video{
+    display: none;
+}
+.sidbar{
+    background: rgba(0, 0, 0, 0.526);
+    backdrop-filter: blur(3px);
+    overflow-y: scroll;
+    height: 500px;
+    width: 28%;
+}
+b{
+    color: red;
+}
+.sidbar ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.topic.active{
+    color: red ;
+
+}
+.content{
+    display: none;
+}
+/* li:active{
+    color: red ;
+    
+
+} */
+.content li.active{
+    color: red;
+    
+    
+    
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+.copyright i{
+    color: red;
+}
+@media (max-width:900px){
+   h1,h3{
+    font-size: 1rem;
+   }
+    iframe{
+        width: 100%; 
+        height: 200px;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        
+    }
+    .sidbar{
+        background: rgba(0, 0, 0, 0.526);
+        backdrop-filter: blur(3px);
+        overflow-y: scroll;
+        height: 500px;
+        width: 100%;
+    }
+    .sidbar ul li {
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    body{
+        overflow: scroll;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+
+}
